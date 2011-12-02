@@ -3,7 +3,7 @@ $:.unshift(File.expand_path('../../lib', __FILE__))
 require "attribute_inheritance"
 
 class Person
-  extend AttributeInheritance
+  extend AttributeInheritance::ModelAdditions
   attr_accessor :last_name, :habits, :parent
   attr_inherited :parent, :last_name, :habits
 end
