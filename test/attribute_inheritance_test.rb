@@ -5,7 +5,7 @@ require "attribute_inheritance"
 class Person
   extend AttributeInheritance::ModelAdditions
   attr_accessor :last_name, :habits, :parent
-  attr_inherited :parent, :last_name, :habits
+  attr_inherited :last_name, :habits, :from => :parent
 end
 
 class AttributeInheritanceTest < MiniTest::Unit::TestCase
