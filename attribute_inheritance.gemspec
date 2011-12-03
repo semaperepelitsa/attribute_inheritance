@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.version     = AttributeInheritance::VERSION
   s.authors     = ["Semyon Perepelitsa"]
   s.email       = ["sema@sema.in"]
-  s.homepage    = ""
+  s.homepage    = "https://github.com/semaperepelitsa/attribute_inheritance"
   s.summary     = %q{Inherit attributes from model's associations}
   # s.description = %q{TODO: Write a gem description}
 
