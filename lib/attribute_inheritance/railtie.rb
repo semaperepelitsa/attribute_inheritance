@@ -1,5 +1,5 @@
 module AttributeInheritance
-  class Railtie < ::Rails:Railtie
+  class Railtie < ::Rails::Railtie
 
     initializer 'url_formatter.model_additions' do
       ActiveSupport.on_load :active_record do
